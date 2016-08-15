@@ -10,26 +10,52 @@ body {
 }
 
 form {
-    background: #000;
+    background: rgba(0, 0, 0, 0.2);
     padding: 3px;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
 }
 
-form input {
-    border: 0;
-    padding: 10px;
-    width: 90%;
-    margin-right: 0.5%;
+#message-form {
+    bottom: 0;
 }
 
-form button {
-    width: 9%;
-    background:
-    rgb(130, 224, 255);
+label {
+    padding-left: 20px;
+}
+
+input {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+
+.to {
+    flex: 3;
+}
+
+.message {
+    flex: 10;
+}
+
+.message > input {
+    width: 80%;
+}
+
+button {
+    background: rgba(250, 250, 250, 1);
     border: none;
     padding: 10px;
+    margin: 5px;
+}
+
+#message-form > button {
+    flex: 1;
 }
 
 #messages {
