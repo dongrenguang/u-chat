@@ -1,0 +1,30 @@
+{
+  "name": "u-chat",
+  "version": "1.0.0",
+  "description": "A simple chat application, using Socket.IO, Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongrenguang/u-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "Socket.IO",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Dong, Renguang <dongrenguang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dongrenguang/u-chat/issues"
+  },
+  "homepage": "https://github.com/dongrenguang/u-chat#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
